@@ -20,7 +20,6 @@ The download includes the css, sass and a sample page illustrating how to use th
     │   └── tour-calendar.js
     │   └── jquery-2.1.4.js
     ├── sass/
-    │   ├── _tour-calendar-options.scss
     │   └── tour-calendar.scss
     └── img/
         └── pin-gray.png
