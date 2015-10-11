@@ -1,0 +1,16 @@
+{
+  "name": "tour-calendar",
+  "version": "0.0.0",
+  "homepage": "http://mazimuhlari.github.io/tour-calendar",
+  "authors": [
+    "Mazi Muhlari"
+  ],
+  "description": "The Tour Calendar plugin is ideal for bands, events, etc. that need to represent their tour dates in an elegant horizontal timeline view.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "tour",
+    "calendar"
+  ],
+  "license": "MIT"
+}
