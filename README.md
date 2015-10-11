@@ -124,7 +124,7 @@ All parts of Tour Calendar are free to use and abuse under the MIT license.
     SOFTWARE.
 
 ### Authors and Contributors
-This project is created and maintained by Mazi Muhlari (@MaziMuhlari) in 2015.
+This project was created in 2015 and is maintened by Mazi Muhlari (@MaziMuhlari).
 
 ### Support or Contact
 Having trouble with Pages? Create a new github issue or send your questions to [Mazi Muhlari on Twitter](https://twitter.com/MaziMuhlari) and we’ll help you sort it out.
