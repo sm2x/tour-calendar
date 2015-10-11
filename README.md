@@ -18,10 +18,10 @@ The download includes the css, sass and a sample page illustrating how to use th
     ├── js/
     │   ├── tour-calendar.min.js
     │   └── tour-calendar.js
+    │   └── jquery-2.1.4.js
     ├── sass/
-    │   ├── _tour-calendar-options.scss
     │   └── tour-calendar.scss
-    └── images/
+    └── img/
         └── pin-gray.png
 
 ### Usage
