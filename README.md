@@ -13,10 +13,8 @@ The download includes the css, sass and a sample page illustrating how to use th
     Tour-Calendar/
     ├── index.html
     ├── css/
-    │   ├── tour-calendar.min.css
     │   └── tour-calendar.css
     ├── js/
-    │   ├── tour-calendar.min.js
     │   └── tour-calendar.js
     │   └── jquery-2.1.4.js
     ├── sass/
