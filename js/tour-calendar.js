@@ -8,7 +8,7 @@
 		// 	startTime: "18:00",
 		// 	endTime: "19:00",
 		// 	date: new Date(),
-		// 	description: "Learn more about how you can make your applicaiton work for you.",
+		// 	description: "Come watch the unforgetable and unmissable for only one night!",
 		// 	venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
 		// 	position: "left",
 		// 	action: "http://www.google.com"
