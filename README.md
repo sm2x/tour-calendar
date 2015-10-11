@@ -28,7 +28,7 @@ The download includes the css, sass and a sample page illustrating how to use th
 
 Below is a screenshot of what the calendar looks like when it is running.
 
-![Tour Calendar Snapshot](https://pbs.twimg.com/media/CRDbh_DWgAUUFH5.png)
+![Tour Calendar Snapshot](https://pbs.twimg.com/media/CRDbh_DWgAUUFH5.png:large)
 
     <script type="text/javascript">
 						
