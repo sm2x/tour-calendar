@@ -5,7 +5,7 @@ The Tour Calendar plugin is ideal for bands, events, etc. that need to represent
 
 * Download the zip
 * Clone the repo
-* Bower
+* Bower `$ bower install tour-calendar`
 
 ### What's in the download?
 The download includes the css, sass and a sample page illustrating how to use the plugin.
@@ -13,10 +13,8 @@ The download includes the css, sass and a sample page illustrating how to use th
     Tour-Calendar/
     ├── index.html
     ├── css/
-    │   ├── tour-calendar.min.css
     │   └── tour-calendar.css
     ├── js/
-    │   ├── tour-calendar.min.js
     │   └── tour-calendar.js
     │   └── jquery-2.1.4.js
     ├── sass/
