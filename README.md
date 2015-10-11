@@ -26,7 +26,70 @@ The download includes the css, sass and a sample page illustrating how to use th
 
 ### Usage
 
-    $('#table-id').tourcalendar();
+    <script type="text/javascript">
+						
+			var events = [];
+			
+			events.push({
+				title: "The Shins",
+				startTime: "12:54",
+				endTime: "23:34",
+				date: new Date(2015, 9, 11),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "left",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Yeah Yeah Yeahs",
+				startTime: "23:54",
+				endTime: "12:45",
+				date: new Date(2015, 9, 11),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "right",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Years & Years",
+				startTime: "23:34",
+				endTime: "12:54",
+				date: new Date(2015, 9, 13),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "left",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Thumpers",
+				startTime: "03:04",
+				endTime: "23:95",
+				date: new Date(2015, 9, 14),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "right",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Bon Iver",
+				startTime: "23:43",
+				endTime: "10:00",
+				date: new Date(2015, 9, 14),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "right",
+				action: "http://www.google.com"
+			});
+			
+			$("#timeline").tourcalendar({
+				data: events
+			});
+			
+	</script>
 
 ### Browser Support
 
