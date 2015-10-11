@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Tour Calendar</title>
-		<meta name="description" content="The Tour Calendar plugin is ideal for bands, events, etc. that need to represent their tour dates in an elegant horizontal timeline view.">
+		<meta name="tc-description" content="The Tour Calendar plugin is ideal for bands, events, etc. that need to represent their tour dates in an elegant horizontal timeline view.">
 		<meta name="author" content="Mazi Muhlari">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
@@ -13,111 +13,75 @@
 	</head>
 	<body>
 		
-		<table id="timeline" class="tc">
-			<tbody>
-				<tr>
-					<td>
-						<div class="tc-card">
-							<span class="tc-pull-right">16:00 - 18:00</span>
-							<h5>Monetzing Applications</h5>
-							<p class="description">
-								Learn more about ios and android programming by attending this talk for adults.
-							</p>
-							<p class="venue">
-								<strong>Venue:</strong> 31 Tony Laws, Aquapark, Tzaneen, 0850
-							</p>
-							<div class="book" >
-								<a href="/book/2452345234213">Book</a>
-							</div>
-						</div>
-					</td>
-					<td>
-						<div class="tc-date">
-							28 <br />
-							Nov
-						</div>
-					</td>
-					<td>
-						<div class="tc-card">
-							<span class="tc-pull-right">16:00 - 18:00</span>
-							<h5>Monetzing Applications</h5>
-							<p class="description">
-								Learn more about ios and android programming by attending this talk for adults.
-							</p>
-							<p class="venue">
-								<strong>Venue:</strong> 31 Tony Laws, Aquapark, Tzaneen, 0850
-							</p>
-							<div class="book" >
-								<a href="/book/2452345234213">Book</a>
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="tc-card">
-							<span class="tc-pull-right">16:00 - 18:00</span>
-							<h5>Monetzing Applications</h5>
-							<p class="description">
-								Learn more about ios and android programming by attending this talk for adults.
-							</p>
-							<p class="venue">
-								<strong>Venue:</strong> 31 Tony Laws, Aquapark, Tzaneen, 0850
-							</p>
-							<div class="book" >
-								<a href="/book/2452345234213">Book</a>
-							</div>
-						</div>
-					</td>
-					<td>
-						<div class="tc-date">
-							27 <br />
-							Sep
-						</div>
-					</td>
-					<td>
-						<div class="tc-card">
-							<span class="tc-pull-right">16:00 - 18:00</span>
-							<h5>Monetzing Applications</h5>
-							<p class="description">
-								Learn more about ios and android programming by attending this talk for adults.
-							</p>
-							<p class="venue">
-								<strong>Venue:</strong> 31 Tony Laws, Aquapark, Tzaneen, 0850
-							</p>
-							<div class="book" >
-								<a href="/book/2452345234213">Book</a>
-							</div>
-						</div>
-						<div class="tc-card">
-							<span class="tc-pull-right">16:00 - 18:00</span>
-							<h5>Monetzing Applications</h5>
-							<p class="description">
-								Learn more about ios and android programming by attending this talk for adults.
-							</p>
-							<p class="venue">
-								<strong>Venue:</strong> 31 Tony Laws, Aquapark, Tzaneen, 0850
-							</p>
-							<div class="book" >
-								<a href="/book/2452345234213">Book</a>
-							</div>
-						</div>
-						<div class="tc-card">
-							<span class="tc-pull-right">16:00 - 18:00</span>
-							<h5>Monetzing Applications</h5>
-							<p class="description">
-								Learn more about ios and android programming by attending this talk for adults.
-							</p>
-							<p class="venue">
-								<strong>Venue:</strong> 31 Tony Laws, Aquapark, Tzaneen, 0850
-							</p>
-							<div class="book" >
-								<a href="/book/2452345234213">Book</a>
-							</div>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>	
+		<table id="timeline" class="tc"></table>	
+		
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/tour-calendar.js"></script>
+		
+		<script type="text/javascript">
+						
+			var events = [];
+			
+			events.push({
+				title: "The Shins",
+				startTime: "12:54",
+				endTime: "23:34",
+				date: new Date(2015, 9, 11),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "left",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Yeah Yeah Yeahs",
+				startTime: "23:54",
+				endTime: "12:45",
+				date: new Date(2015, 9, 11),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "right",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Years & Years",
+				startTime: "23:34",
+				endTime: "12:54",
+				date: new Date(2015, 9, 13),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "left",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Thumpers",
+				startTime: "03:04",
+				endTime: "23:95",
+				date: new Date(2015, 9, 14),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "right",
+				action: "http://www.google.com"
+			});
+			
+			events.push({
+				title: "Bon Iver",
+				startTime: "23:43",
+				endTime: "10:00",
+				date: new Date(2015, 9, 14),
+				description: "Learn more about ios and android programming by attending this talk for adults.",
+				venue: "31 Tony Laws, Aquapark, Tzaneen, 0850",
+				position: "right",
+				action: "http://www.google.com"
+			});
+			
+			$("#timeline").tourcalendar({
+				data: events
+			});
+			
+		</script>
+		
 	</body>
 </html>

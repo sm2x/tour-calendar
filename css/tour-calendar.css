@@ -13,14 +13,14 @@
     .tc td .tc-card h5 {
       margin-bottom: 0;
       margin-top: 0; }
-    .tc td .tc-card .description {
+    .tc td .tc-card .tc-description {
       margin-top: 5px;
       margin-bottom: 5px; }
-    .tc td .tc-card .venue {
+    .tc td .tc-card .tc-venue {
       margin-top: 5px;
       margin-bottom: 0;
       font-size: 85%; }
-    .tc td .tc-card .book {
+    .tc td .tc-card .tc-book {
       text-align: right; }
     .tc td .tc-card a {
       text-decoration: none; }
