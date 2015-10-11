@@ -99,7 +99,7 @@ Below is a screenshot of what the calendar looks like when it is running.
 
 ### License
 
-All parts of Skeleton are free to use and abuse under the MIT license.
+All parts of Tour Calendar are free to use and abuse under the MIT license.
 
     The MIT License (MIT)
     
