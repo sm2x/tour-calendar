@@ -22,7 +22,7 @@
 		return this.each( function () {
 			
 			// Initialize table with a body
-			$(this).html("<tbody></tbody>");
+			$(this).addClass("tc").html("<tbody></tbody>");
 			
 			// Main table body
 			var body = $(this).children('tbody');

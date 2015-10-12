@@ -28,64 +28,36 @@ Below is a screenshot of what the calendar looks like when it is running.
 
 ![Tour Calendar Snapshot](https://pbs.twimg.com/media/CRDbh_DWgAUUFH5.png:large)
 
+Defining the control is as simple as adding an html table with an id
+
+    <table id="timeline"></table>
+	
+You can then define your events and then initialize your calendar with said events
+
     <script type="text/javascript">
-						
-		var events = [];
-		
-		events.push({
-			title: "The Shins",
-			startTime: "12:54",
-			endTime: "23:34",
-			date: new Date(2015, 9, 11),
-			description: "Come watch the unforgetable and unmissable for only one night!",
-			venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
-			position: "left",
-			action: "http://www.google.com"
-		});
-		
-		events.push({
-			title: "Yeah Yeah Yeahs",
-			startTime: "23:54",
-			endTime: "12:45",
-			date: new Date(2015, 9, 11),
-			description: "Come watch the unforgetable and unmissable for only one night!",
-			venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
-			position: "right",
-			action: "http://www.google.com"
-		});
-		
-		events.push({
-			title: "Years & Years",
-			startTime: "23:34",
-			endTime: "12:54",
-			date: new Date(2015, 9, 13),
-			description: "Come watch the unforgetable and unmissable for only one night!",
-			venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
-			position: "left",
-			action: "http://www.google.com"
-		});
-		
-		events.push({
-			title: "Thumpers",
-			startTime: "03:04",
-			endTime: "23:95",
-			date: new Date(2015, 9, 14),
-			description: "Come watch the unforgetable and unmissable for only one night!",
-			venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
-			position: "right",
-			action: "http://www.google.com"
-		});
-		
-		events.push({
-			title: "Bon Iver",
-			startTime: "23:43",
-			endTime: "10:00",
-			date: new Date(2015, 9, 14),
-			description: "Come watch the unforgetable and unmissable for only one night!",
-			venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
-			position: "right",
-			action: "http://www.google.com"
-		});
+	
+		var events = [
+			{
+				title: "The Shins",
+				startTime: "12:54",
+				endTime: "23:34",
+				date: new Date(2015, 9, 11),
+				description: "Come watch the unforgetable and unmissable for only one night!",
+				venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
+				position: "left",
+				action: "http://www.google.com"
+			},
+			{
+				title: "Yeah Yeah Yeahs",
+				startTime: "23:54",
+				endTime: "12:45",
+				date: new Date(2015, 9, 11),
+				description: "Come watch the unforgetable and unmissable for only one night!",
+				venue: "135 Beggers Street, Pretoria, Gauteng, 0002",
+				position: "right",
+				action: "http://www.google.com"
+			}
+		];
 		
 		$("#timeline").tourcalendar({
 			data: events
